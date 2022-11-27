@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous"
+  />
+  <title>imtihon</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+          <div class="border container mt-5 text-center w-50 p-5 row gap-2 box">
+            <div class="row gap-2 list" id="pizzaorder">
+              <h3 for="">pizza order</h3>
+              <input type="text" placeholder="User name" id="User" />
+              <input type="text" placeholder="Phone Number" id="Phone"/>
+              <input type="text" placeholder="User address" id="address"/>
+             
+            </div>
+            <div class="mt-2">
+              <label for="">Dough thickness:</label>
+              <select name="" id="Dough_thickness">
+                <option value="">none</option>
+                <option value="thin"  id="thin">Thin</option>
+                <option value="medium" id="Medium">Medium</option>
+                <option value="thick" id="Thick">Thick</option>
+              </select>
+            </div>
+            <div class="mt-2">
+              <label for="">Size:</label>
+              <select name="" class="sm">
+                <option value="">none</option>
+                <option value="25sm"  id="one">25sm</option>
+                <option value="30sm" id="two">30sm</option>
+                <option value="35sm" id="three">35sm</option>
+              </select>
+            </div>
+            <div class="row m-auto w-100" id="div">
+              <h3>On Pizza:</h3>
+              <div class="d-flex justify-content-center ms-5 w-100 align-items-center row ">
+                <div class=" d-flex gap-4 ">
+                  <input
+                  type="checkbox"
+                  class="form-check-input checkbox"
+                  id="tomato"
+                />
+                <label for="">TOMATO</label>
+                <input
+                  type="checkbox"
+                  class="form-check-input checkbox "
+                  id="Pickled"
+                />
+                <label for="">Pickled cucumber</label>
+                </div>
+                <div class=" d-flex gap-4">
+                  <input
+                  type="checkbox"
+                  class="form-check-input checkbox"
+                  id="Turkey"
+                />
+                <label for="">Turkey meat</label>
+                <input
+                  type="checkbox"
+                  class="form-check-input checkbox "
+                  id="Mush"
+                />
+                <label for="">Mush room</label>
+                </div>
+                <div class=" d-flex gap-4">
+                  <input
+                  type="checkbox"
+                  class="form-check-input checkbox"
+                  id="Olive"
+                />
+                <label for="">Olive</label>
+                <input
+                  type="checkbox"
+                  class="form-check-input checkbox "
+                  id="Horse"
+                />
+                <label for="">Horse meat</label>
+                </div>
+                
+            </div>
+          </div>
+        <div>
+          <h3>Add:</h3>
+          <div class=" d-flex gap-4 ms-5 gap-4 biv">
+              <input
+              type="checkbox"
+              class="form-check-input checkboxs"
+              id="Pepper"
+            />
+            <label for="">Pepper</label>
+            <input
+              type="checkbox"
+              class="form-check-input checkboxs "
+              id="Sausages"
+            />
+            <label for="">Sausages</label>
+            </div>
+        </div>
+          <button class="w-25 m-auto mt-5">Save</button>
+        </form>
+      </div>
+      <div class="w-75">
+        <div class="loop d-flex flex-wrap gap-5 m-3">
+            <!-- <div class="cards  border border-dark">
+                <div class="title d-flex justify-content-between align-items-center" >
+        <h4 class="m-2">Order:</h4>
+                  <i class="fs-4 m-2"></i>
+              </div>
+              <div class=" m-2">
+                  <p><span class="">Name: </span></p>
+                  <p><span class="">Phone: </span></p>
+                  <p><span class="">Address: </span></p>
+              </div>
+              <hr>
+
+              <div class=" m-2">
+                  <p><span class="">Dough thickness: </span></p>
+                  <p><span class="">Size: </span></p>
+                  <p><span class="">On Pizza: </span></p>
+                  <p><span class="">Add: </span></p>
+              </div>
+          </div> -->
+
+         
+      </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
